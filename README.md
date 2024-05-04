@@ -4,7 +4,7 @@ This is an implementation of the Boids Algorithm for IMGD 4000. I implemented th
 2. Boids try to keep a small distance away from other objects (including other boids). <br>
 3. Boids try to match velocity with near boids. <br> <br>
 
-My main function flock() takes inputs from these three rule functions. I also implemented two additional features as described at http://www.kfish.org/boids/pseudocode.html, which were checking for boundaries and controlling velocity.  
+My main function flock() takes inputs from these three rule functions. I also implemented two additional features, AKA tweaks, as described at http://www.kfish.org/boids/pseudocode.html, which were checking for boundaries and controlling velocity.  
 
 Each of the rules functions goes over all other boids to implement all three rules. The resulting value determines the speed and location of the boid's next position. 
 
